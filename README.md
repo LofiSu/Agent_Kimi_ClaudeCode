@@ -188,3 +188,38 @@ Please start by:
 ```
 整个完成的过程花了半个多小时，然后完成之后我让它启动是没有跑起来的，我尝试了一下debug之后可以启动，整个花费的时间在一个小时左右。（主要想看看能不能一次启动，我觉得这是一个比较基础的Agent，同样的Prompt给到Cursor+Gemini2.5-pro是可以一次启动的，但是中间也会有一些功能bug，整个花费时间不到半小时）
 
+
+## 然后我看他们展示的3D峡谷景观展示换了一个例子，让它给我生成一个“3D 星空峡谷探险场景”来试：
+```
+Prompt:
+
+Create a 3D *Starlit Canyon Explorer* scene using HTML and Three.js.
+
+Features:
+
+* Terrain & Canyon: Build a realistic canyon landscape with cliffs, deep valleys, and layered rock formations.
+* Waterfalls & Reflective Rivers: Add animated waterfalls cascading down rock faces and reflective water shaders for rivers.
+* Day-Night Cycle: Smooth animated transitions between day and night, with sunrises, sunsets, and a starlit sky at night.
+* User Interaction:
+  * Support mouse drag, zoom, and orbit controls;
+  * (Optional) First-person exploration mode;
+* Visual Enhancements:
+  * Real-time shadows from terrain and sunlight;
+  * Subtle star animations at night using noise shaders;
+  * Toggleable terrain contour lines;
+* Realistic Shading:
+  * Use gradient-based shading for rocks, sands, and night skies;
+  * Add volumetric fog to enhance depth perception;
+* Map Navigation & Info Tags:
+  * Clickable terrain hotspots to display location info;
+  * Floating labels like “Canyon Entrance” or “Plateau Camp”;
+
+Tech Stack:
+
+* Core: HTML + Three.js + CSS
+* Controls: OrbitControls or PointerLockControls
+* Animations: GSAP for lighting and transition effects
+* Fog/Volumetric Light: ShaderMaterial with postprocessing
+* Terrain Generation: Perlin Noise or heightmaps
+* Developer Tools: dat.GUI for toggling contour lines, time of day, and effects
+```
