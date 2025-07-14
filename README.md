@@ -123,7 +123,7 @@ claude
 
 ## 🚀 快速实战：用 Claude Code 构建一个最基础的 DeepResearch Agent！
 
-**Prompt：**
+**我输入的Prompt：**
 
 ```text
 You are an expert AI coding assistant. I want you to help me implement a basic DeepResearch-style Agent AI system.
