@@ -42,8 +42,9 @@ claude --version
 
 1. 首先去 Moonshot AI 平台获取一个 API Key：
    👉 [https://platform.moonshot.cn/console/api-keys](https://platform.moonshot.cn/console/api-keys)
+   <img width="1205" height="445" alt="截屏2025-07-15 上午12 38 50" src="https://github.com/user-attachments/assets/9595827a-a47b-4938-a6b5-651020f56dc4" />
 
-2. 打开 Claude Code 前，在命令行中设置环境变量：
+3. 打开 Claude Code 前，在命令行中设置环境变量：
 
 #### 国内环境：
 
@@ -185,3 +186,5 @@ Please start by:
 3. Provide code for both with full inline comments and logs
 
 ```
+整个完成的过程花了半个多小时，然后完成之后我让它启动是没有跑起来的，我尝试了一下debug之后可以启动，整个花费的时间在一个小时左右。（主要想看看能不能一次启动，我觉得这是一个比较基础的Agent，同样的Prompt给到Cursor+Gemini2.5-pro是可以一次启动的，但是中间也会有一些功能bug，整个花费时间不到半小时）
+
