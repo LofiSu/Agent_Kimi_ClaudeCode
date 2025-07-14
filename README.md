@@ -1,5 +1,5 @@
 # Agent_Kimi_ClaudeCode
-🔥Kimi K2+ClaudeCode实战！极速提升开发效率🚀手把手快速搭建一个DeepReSearchAgent！
+🔥Kimi K2+ClaudeCode实战！绝对真实测评！手把手教程，绝对真实测评！
 ## 只有干货！无废话纯教程！
 
 * 📄 **Kimi K2 介绍链接**：[点击查看](https://mp.weixin.qq.com/s/2RPmHf_8KqIjXbY5jLdztQ)
